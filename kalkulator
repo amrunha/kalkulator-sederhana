@@ -22,17 +22,19 @@ namespace KalkulatorSederhana
 
         }
 
+        //button tambah
         private void button1_Click(object sender, EventArgs e)
         {
             //input
             double bil1 = Convert.ToDouble(textBox1.Text);
             double bil2 = Convert.ToDouble(textBox2.Text);
-            //proses
+            //proses 
             double hasil = bil1 + bil2;
             //output
             textBox3.Text = Convert.ToString(hasil);
         }
 
+        //button kurang
         private void button2_Click(object sender, EventArgs e)
         {
             //input
@@ -44,6 +46,7 @@ namespace KalkulatorSederhana
             textBox3.Text = Convert.ToString(hasil);
         }
 
+        //button kali
         private void button5_Click(object sender, EventArgs e)
         {
             //input
@@ -55,6 +58,7 @@ namespace KalkulatorSederhana
             textBox3.Text = Convert.ToString(hasil);
         }
 
+        //button bagi
         private void button3_Click(object sender, EventArgs e)
         {
             //input
@@ -66,6 +70,7 @@ namespace KalkulatorSederhana
             textBox3.Text = Convert.ToString(hasil);
         }
 
+        //button modulo
         private void button4_Click(object sender, EventArgs e)
         {
             //input
@@ -77,6 +82,7 @@ namespace KalkulatorSederhana
             textBox3.Text = Convert.ToString(hasil);
         }
 
+        //button RESET
         private void button6_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
